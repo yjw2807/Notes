@@ -1,0 +1,4 @@
+aLTEr attack: internet (4G) MITM attack that target for phone user
+Jamming attack: Wireless Attack, using a jammer to jam target frequency wireless signal(4g.5g GPS etc)
+Rolling code attack: capture the wireless signal and block it, then replay the copied signal
+SSID cloaking: Wireless Defense, Hide WIFI SSID from broadcast
