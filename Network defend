@@ -1,0 +1,3 @@
+lack-hole filtering: network defense technique, drop every traffic which dest is the victim
+RFC 3704 filtering: network defense technique, ingress filtering, prevent IP spoofing
+SPAN port: Network defense (monitor) Switched Port Analyzer port. copy the network traffic from port(s) ,vlan(s) to another port to proceed anaylysing
