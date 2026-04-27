@@ -1,0 +1,3 @@
+ICMP tunnels: Firewall evasion tech, Bypassing Ingress filtering
+reverse ICMP tunnels: Firewall evasion tech,Bypassing Egress filtering
+Session splicing: IDS/IPS evasion technique, fragment the payload and send through the IDS IPS
