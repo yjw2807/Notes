@@ -1,0 +1,4 @@
+Switch port stealing: Network Attack, MAC address spoofing that tries to trick the switch into thinking the victim’s MAC address is on the attacker’s port.
+Double tagging: a type of VLan Hopping. craft the header to let switch forward the packet to the victim that attacker suppose cannot reached 
+Vlan hopping: As the word, jump from a Vlan to another Vlan
+Using pre-authenticated device: attacker use tech for example spoofing to pretend a authenticated device
