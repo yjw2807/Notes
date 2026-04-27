@@ -1,0 +1,11 @@
+| Code   | Meaning                             |
+| ------ | ----------------------------------- |
+| `<00>` | Workstation service / computer name | 00 = start
+| `<03>` | Messenger service                   |
+| `<06>` | Remote Access Service               |
+| `<20>` | File Server service                 |
+| `<1B>` | Domain Master Browser               | B = browser
+| `<1C>` | Domain Controllers                  | C = Controller
+| `<1D>` | Master Browser                      | 
+| `<1E>` | Browser service elections           | E = elections
+| `<1F>` | NetDDE service                      |
