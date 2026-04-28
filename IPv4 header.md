@@ -6,7 +6,8 @@
 | **ECN**                    |     2 bits | Used for congestion notification without dropping packets. |
 | **Total Length**           |    16 bits | Total size of the IPv4 packet, including header and data.  |
 
-
+| IPv4 header component      |       Size | What it means                                              |
+| -------------------------- | ---------: | ---------------------------------------------------------- |
 | **Identification**         |    16 bits | Helps identify fragments of the same original packet.      |
 | **Flags**                  |     3 bits | Controls fragmentation, such as “don’t fragment.”          |
 | **Fragment Offset**        |    13 bits | Shows where this fragment belongs in the original packet.  |
@@ -16,6 +17,7 @@
 | **Source IP Address**      |    32 bits | Sender’s IPv4 address.                                     |
 | **Destination IP Address** |    32 bits | Receiver’s IPv4 address.                                   |
 
-
+| IPv4 header component      |       Size | What it means                                              |
+| -------------------------- | ---------: | ---------------------------------------------------------- |
 | **Options**                | 0–40 bytes | Optional extra control information. Rarely used today.     |
 | **Padding**                |   Variable | Fills the header so its length is a multiple of 32 bits.   |
