@@ -4,7 +4,7 @@ TODO: REad through and edit it
 | Header field                            | Request / Response | What it means                                                                    | Security relevance                                                             |
 | --------------------------------------- | -----------------: | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | `Host`                                  |            Request | Tells the server which domain the client wants.                                  | Important for virtual hosting. Bad validation can lead to host header attacks. |
-| `User-Agent`                            |            Request | Identifies the browser, app, bot, or tool making the request.                    | Can be spoofed, so it should not be fully trusted.                             |
+| `User-Agent`                            |            Request | NA                         | na.                             |
 | `Accept`                                |            Request | Tells the server what content types the client accepts, such as HTML or JSON.    | Low direct security impact.                                                    |
 | `Accept-Language`                       |            Request | Tells the server the user’s preferred language.                                  | Can contribute to browser fingerprinting.                                      |
 | `Accept-Encoding`                       |            Request | Tells the server which compression methods the client supports, like gzip or br. | Compression can sometimes interact with sensitive data leaks if misused.       |
