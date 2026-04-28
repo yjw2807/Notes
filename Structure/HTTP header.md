@@ -34,6 +34,4 @@ TODO: REad through and edit it
 | `Access-Control-Allow-Headers`          |           Response | Lists allowed custom request headers for CORS.                                   | Should be limited to what the app needs.                                       |
 | `Access-Control-Max-Age`                |           Response | Tells browser how long to cache CORS preflight results.                          | Mostly performance-related.                                                    |
 | `WWW-Authenticate`                      |           Response | Tells the client what authentication method is required.                         | Used for authentication flows.                                                 |
-| `X-XSS-Protection`                      |           Response | Old browser XSS filter control.                                                  | Mostly outdated. CSP is preferred.                                             |
-| `Expect-CT`                             |           Response | Older certificate transparency enforcement header.                               | Mostly obsolete in modern browsers.                                            |
-| `Public-Key-Pins` / `HPKP`              |           Response | Old certificate pinning header.                                                  | Deprecated and dangerous if misconfigured. Avoid using it.                     |
+
