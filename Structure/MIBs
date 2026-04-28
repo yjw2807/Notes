@@ -1,0 +1,12 @@
+Management Information Bases
+
+OID              = Unique numeric address
+Managed Object   = Item being monitored
+Object Name      = Human-readable name
+Syntax           = Data type
+Access           = Read or write permission
+Status           = Current or old object
+Description      = Explanation of the object
+MIB Tree         = Hierarchical structure
+Module           = Group of related objects
+Table            = Repeated object data
