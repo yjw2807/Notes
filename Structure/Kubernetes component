@@ -1,0 +1,10 @@
+
+
+API Server        = Entry point
+etcd              = Cluster database
+Scheduler         = Chooses where Pods run
+Controller Manager= Keeps desired state
+Kubelet           = Manages Pods on a node
+Container Runtime = Runs containers
+Kube-proxy        = Handles networking
+CoreDNS           = Provides service discovery
