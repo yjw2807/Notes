@@ -16,3 +16,5 @@
 | `file`         | 128 bytes | Boot file name, used more in BOOTP/PXE boot.                                        |
 | `magic cookie` |   4 bytes | Identifies DHCP options. Value is usually `63 82 53 63`.                            |
 | `options`      |  Variable | DHCP options such as message type, subnet mask, router, DNS, lease time, etc.       |
+
+、DHCPv4 messages
